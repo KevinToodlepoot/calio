@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0A0CBC902F37C8CB00D7F8A6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0A0CBC8F2F37C8CB00D7F8A6 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0A0CBC722F37C4A900D7F8A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		0A0CBC642F37C4A800D7F8A6 /* Calio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0CBC712F37C4A900D7F8A6 /* CalioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0CBC7B2F37C4A900D7F8A6 /* CalioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0CBC8F2F37C8CB00D7F8A6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		0A0CBC5B2F37C4A800D7F8A6 = {
 			isa = PBXGroup;
 			children = (
+				0A0CBC8F2F37C8CB00D7F8A6 /* .gitignore */,
 				0A0CBC662F37C4A800D7F8A6 /* Calio */,
 				0A0CBC742F37C4A900D7F8A6 /* CalioTests */,
 				0A0CBC7E2F37C4A900D7F8A6 /* CalioUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0CBC902F37C8CB00D7F8A6 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
